@@ -1,0 +1,16 @@
+.app-header {
+    background-color: $clr8;
+    color: $clr7;
+    padding: 10px;
+    .main-app{
+        >div{
+            justify-content: center;
+            @include for-normal-layout {
+                @media (min-width: $narrow-breakpoint) {
+                    justify-content: flex-start;
+                }
+              }
+        }
+    }
+
+}
