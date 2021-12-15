@@ -2,7 +2,6 @@ import axios from 'axios'
 
 export const leagueService = {
     getLeagues,
-    getRandomInt,
     getTeams,
 }
 
