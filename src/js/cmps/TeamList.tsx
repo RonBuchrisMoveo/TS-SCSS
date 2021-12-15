@@ -1,4 +1,3 @@
-import React from 'react'
 import { ITeam } from '../services/service'
 
 export const TeamList = (props:{teams:ITeam[]}) => {

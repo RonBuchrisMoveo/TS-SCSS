@@ -10,5 +10,8 @@
         width: 140px;
         height: 200px;
         padding: 5px 10px;
+        &:hover{
+            background-color: $color-working-hover-orange;
+        }
     }
 }

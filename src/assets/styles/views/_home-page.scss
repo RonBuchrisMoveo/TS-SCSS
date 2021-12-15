@@ -16,6 +16,15 @@
             padding: 5px 10px;
             align-items: center;
             text-align: center;
+            &.selected{
+                background-color:$wolf-color;
+                &:hover{
+                    background-color: $wolf-color;
+                }
+            }
+            &:hover{
+                background-color: $ui-grey-color;
+            }
         }
     }
 }
