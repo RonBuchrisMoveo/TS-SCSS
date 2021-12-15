@@ -13,6 +13,7 @@ export interface ILeague {
 }
 
 export interface ITeam {
+    teamModule:any,
     strTeamBadge: string,
     strTeam: String,
 }
